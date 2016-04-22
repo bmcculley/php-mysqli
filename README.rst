@@ -1,6 +1,8 @@
 PHP MySQLi Database Class Documentation
 =======================================
 
+[![Documentation Status](https://readthedocs.org/projects/php-mysqli/badge/?version=latest)](http://php-mysqli.readthedocs.org/en/latest/?badge=latest)
+
 http://php-mysqli.readthedocs.org/
 
 NOTE: THIS IS NOT AN OFFICIAL DOCUMENTATION

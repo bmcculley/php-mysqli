@@ -12,13 +12,21 @@ Advanced initialization:
 
 
   $db = new MysqliDb (Array (
+
       'host' => 'host',
+
       'username' => 'username',
+
       'password' => 'password',
+
       'db'=> 'databaseName',
+
       'port' => 3306,
+
       'prefix' => 'my_',
+
       'charset' => 'utf8'));
+
 
 table prefix, port and database charset params are optional. If no charset should be set charset, set it to null
 
@@ -35,11 +43,14 @@ If you need to get already created mysqliDb object from another class or functio
 
   function init () {
       // db staying private here
+
       $db = new MysqliDb ('host', 'username', 'password', 'databaseName');
   }
   ...
   function myfunc () {
       // obtain db object created in init  ()
+
       $db = MysqliDb::getInstance();
+      
       ...
   }

@@ -7,8 +7,10 @@ Simple initialization with utf8 charset set by default:
 
   $db = new MysqliDb ('host', 'username', 'password', 'databaseName');
 
-### Advanced initialization:
+Advanced initialization:
+~~~~~~~~~~~~~~~~~~~~~~~~
 
+```
   $db = new MysqliDb (Array (
                 'host' => 'host',
                 'username' => 'username', 
@@ -17,6 +19,7 @@ Simple initialization with utf8 charset set by default:
                 'port' => 3306,
                 'prefix' => 'my_',
                 'charset' => 'utf8'));
+```
 
 table prefix, port and database charset params are optional. If no charset should be set charset, set it to null
 

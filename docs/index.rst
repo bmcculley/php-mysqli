@@ -7,13 +7,28 @@ PHP MySQLi Database Class Documentation
    	is available in the GitHub repo `here
    	<https://github.com/joshcam/PHP-MySQLi-Database-Class/blob/master/readme.md>`_.
 
-Contents:
-
 .. toctree::
-   :maxdepth: 2
-   :glob:
+	:numbered:
 
-   *
+	installation
+	initialization
+	objects-mapping
+	insert-query
+	update-query
+	select-query
+	delete-query
+	running-raw-sql-queries
+	query-keywords
+	where--having-methods
+	ordering-method
+	grouping-method
+	properties-sharing
+	join-method
+	subqueries
+	exists-not-exists-condition
+	has-method
+	helper-methods
+	transaction-helpers
 
 Indices and tables
 ==================

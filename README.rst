@@ -1,7 +1,7 @@
 PHP MySQLi Database Class Documentation
 =======================================
 
-https://*.readthedocs.org
+http://php-mysqli.readthedocs.org/
 
 NOTE: THIS IS NOT AN OFFICIAL DOCUMENTATION
 

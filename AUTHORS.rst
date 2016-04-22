@@ -1,0 +1,6 @@
+Authors
+-------
+
+* joshcam
+* avbdr
+* bmcculley
